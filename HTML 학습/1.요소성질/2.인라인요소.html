@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            background: orange;
+        }
+
+        em {
+            background: lightcoral;
+            width: 900px;
+            height: 10000px;
+        }
+
+        a {
+            background: dodgerblue;
+            display: block;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- span+em+a -->
+    <span>인라인1</span>
+    <em>인라인2</em>
+    <a href="#">인라인3</a>
+
+    <!-- 블록안에는 블록 및 인라인 가능 -->
+    <div>
+        <p></p>
+        <span></span>
+    </div>
+
+    <!-- 인라인 안에는 인라인만 가능 -->
+    <em>
+        <!-- <div></div> -->
+        <span></span>
+        <a href=""></a>
+    </em>
+
+</body>
+
+</html>
