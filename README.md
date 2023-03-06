@@ -22,3 +22,7 @@
 - 실행법 : html 문서 에디터부분 우클릭 -> open with live server 클릭
 6. beautify : 자동 줄맞춤
 - 단축키 설정 -> Hooky 검색 -> Beautify file 단축키를 ctrl alt l 로 지정 (intellij 와 동일하게)
+7. git history : 깃 로그를 보기 편하게
+- 탐색기에서 우클릭 -> Git View
+8. git graph : 로그 graph 를 보기 쉽게
+- 소스제어의 그래프 모양 클릭
