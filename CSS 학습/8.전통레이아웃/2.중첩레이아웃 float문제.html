@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ct {
+            width: 700px;
+            padding: 20px;
+            border: 3px solid;
+            margin: 20px;
+        }
+        /* 해제용 클래스 */
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .container1 {
+            border-color: red;
+            /* 2번 방법 (비권장)
+            overflow: hidden;
+            */
+        }
+        /* 3번 방법 (권장) 
+        .container1::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        */
+        .container1 .box {
+            width: 200px;
+            height: 150px;
+            border: 3px solid green;
+            background: yellowgreen;
+            border-radius: 20px;
+
+            float: left;
+        }
+        /* 1번 방법 (비권장)
+        .container1 .vbox {
+            clear: left;
+        } */
+        .container2 {
+            border-color: blue;
+        }
+        .container3 {
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="ct container1 clearfix">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <!-- <div class="vbox"></div> -->
+    </div>
+    <div class="ct container2 clearfix">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="ct container3 clearfix">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
