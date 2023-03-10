@@ -1,0 +1,136 @@
+@import url(../../common.css);
+
+body {
+    background: gray;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* begin header style */
+header {
+    text-align: center;
+}
+header h1 {
+    background: rgb(255, 186, 59);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 4.7em;
+    color: white;
+}
+header h1 span {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1em;
+}
+header .stit {
+    background: lightgray;
+    font-size: 0.8em;
+    padding: 5px;
+}
+/* end header style */
+
+/* begin container style */
+.container {
+    background: white;
+}
+.container .side-menu {
+    float: left;
+    width: 20%;
+}
+.container .side-menu h3 {
+    color: white;
+    background: rgb(190, 0, 0);
+    padding: 10px;
+    font-weight: 700;
+}
+.container .side-menu ul {
+    padding: 10px;
+}
+.container .side-menu ul li {
+    margin-bottom: 15px;
+}
+.container .side-menu ul li a {
+    text-decoration: underline;
+}
+
+.container .main-content {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background: rgb(233, 233, 233);
+}
+.container .main-content .art-piece {
+    margin-top: 10px;
+}
+.container .main-content .art-piece .title {
+    background: rgb(22, 57, 110);
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.container .main-content .art-piece .title:hover {
+    color: #ee0;
+}
+.container .main-content .art-piece .artist {
+    color: rgb(22, 57, 110);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.container .main-content .art-piece .detail {
+    color: rgb(22, 57, 110);
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.container .main-content .art-piece .detail:last-child {
+    margin-bottom: 0;
+}
+
+.container .banner {
+    width: 20%;
+    padding: 13px;
+    float: left;
+}
+.container .banner span {
+    display: block;
+}
+.container .banner h3 {
+    line-height: 1.4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.container .banner h3 .all {
+    color: gray;
+    text-decoration: underline;
+}
+.container .banner h3 .love {
+    color: orange;
+    text-decoration: underline;
+}
+.container .banner .link li {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+.container .banner .link li a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* end conatiner style */
+
+/* begin footer style */
+footer {
+    text-align: center;
+    background: rgb(22, 57, 110);
+    padding: 7px;
+    font-weight: 700;
+    color: white;
+    font-size: 0.8em;
+}
+footer address a {
+    text-decoration: underline;
+}
+/* end footer style */

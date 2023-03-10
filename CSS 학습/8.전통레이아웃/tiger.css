@@ -1,0 +1,76 @@
+@import url("../../common.css");
+
+body {
+    background: gray;
+    font-family: "굴림", "Gulim", serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+/* begin header style */
+header {
+    background: #1e266d;
+    text-align: center;
+}
+header h1 {
+    padding: 20px;
+    font-weight: 700;
+    color: rgb(182, 182, 0);
+    font-size: 20px;
+}
+header h1 strong {
+    font-size: 3em;
+    color: white;
+}
+header h1 span {
+    font-size: 1.5em;
+}
+header h1 em {
+    font-size: 2em;
+    color: lightgray;
+}
+/* end header style */
+
+/* begin container style */
+.container {
+    background: lightgray;
+}
+.container .menu {
+    width: 20%;
+    float: left;
+    padding: 40px;
+}
+.container .menu li {
+    margin-bottom: 20px;
+}
+.container .menu li a {
+    color: black;
+    text-decoration: underline;
+}
+.container .content {
+    width: 80%;
+    float: right;
+    background: white;
+}
+.container .content h2 {
+    color: yellow;
+    background: rgb(161, 0, 0);
+    padding: 15px 25px;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 2em;
+}
+.container .content p {
+    padding: 25px;
+    line-height: 1.5;
+}
+/* end container style */
+
+/* begin footer style */
+footer {
+    background: rgb(161, 161, 161);
+    padding: 15px;
+}
+/* end footer style */
